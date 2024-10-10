@@ -52,7 +52,7 @@ echo 'REDACTION_LIST=confidential,secret,classified' > .env
 rails server -p 8080
 
 ### 7. Postman collection api
-https://api.postman.com/collections/15882839-1a98ffd4-8e80-4c0b-ad57-beff9c2f00d3?access_key=[POSTMANKEY]
+https://api.postman.com/collections/[SECRETKEY]?access_key=[POSTMANKEY]
 
 ### 8. Run test cases by using the below command:
 rspec spec/requests/redact_spec.rb
